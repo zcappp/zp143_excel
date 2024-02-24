@@ -12,13 +12,6 @@ function init(_ref) {
         container.getData = () => {
             return container.workbook.save()
         }
-
-        // https://univer.work/playground/?title=React%20and%20Facade%20API
-        // container.API = window.UniverFacade.FUniver.newAPI(U)
-        // container.API.onCommandExecuted(cmd => {
-        //     if (cmd.type !== 2 || cmd.id !== "sheet.mutation.set-range-values") return
-        //     // log(cmd)
-        // })
     })
 }
 
